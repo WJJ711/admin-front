@@ -83,7 +83,7 @@ var config = {
         // html 加载
         new HtmlWebpackPlugin({
             filename        : 'view/index.html',
-            title           : 'MMall 后台管理系统',
+            title           : '天猫 后台管理系统',
             template        : './src/index.html',
             favicon         : './tmall.ico',
             inject          : true,
