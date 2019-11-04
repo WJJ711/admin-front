@@ -26,7 +26,7 @@ var config = {
     // path && publickPath
     output: {
         path        : __dirname + '/dist/',
-        publicPath  : WEBPACK_ENV === 'online' ? '//s.wjjlucky.top/admin-front/dist/' : '/dist/',
+        publicPath  : WEBPACK_ENV === 'online' ? '//s.wjjlucky.top/admin-front/dist/' : '//s.wjjlucky.top/admin-front/dist/',
         filename    : 'js/[name].js'
     },
     resolve: {
