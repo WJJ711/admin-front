@@ -85,7 +85,7 @@ var config = {
             filename        : 'view/index.html',
             title           : 'MMall 后台管理系统',
             template        : './src/index.html',
-            favicon         : './favicon.ico',
+            favicon         : './tmall.ico',
             inject          : true,
             hash            : true,
             chunks          : ['vendors', 'app'],
