@@ -25,7 +25,7 @@ const Home = React.createClass({
                 <PageTitle pageTitle="Home"/>
                 <div className="row">
                     <div className="col-lg-3 col-md-6">
-                        Welcome
+                        欢迎来到天猫商城后台管理界面
                     </div>
                 </div>
             </div>
