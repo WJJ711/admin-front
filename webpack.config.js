@@ -26,7 +26,7 @@ var config = {
     // path && publickPath
     output: {
         path        : __dirname + '/dist/',
-        publicPath  : WEBPACK_ENV === 'online' ? '//s.wjjlucky.top/admin-fe/dist/' : '/dist/',
+        publicPath  : WEBPACK_ENV === 'online' ? '//s.wjjlucky.top/admin-front/dist/' : '/dist/',
         filename    : 'js/[name].js'
     },
     resolve: {
@@ -81,7 +81,7 @@ var config = {
         // html 加载
         new HtmlWebpackPlugin({
             filename        : 'view/index.html',
-            title           : 'MMall 后台管理系统',
+            title           : 'TMall 后台管理系统',
             template        : './src/index.html',
             favicon         : './favicon.ico',
             inject          : true,
